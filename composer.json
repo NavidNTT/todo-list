@@ -1,0 +1,21 @@
+{
+    "name": "navid/task-manager-ui",
+    "description": "task manager composer",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Navid\\TaskManagerUi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "navid",
+            "email": "the.pastrider76@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "hekmatinasser/verta": "^8.5"
+    }
+}
